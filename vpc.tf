@@ -3,7 +3,6 @@
 # This configuration builds out the VPC that our EKS cluster will be
 # provisioned against.
 
-
 # This defines the VPC that our EKS cluster will be networked within.
 # Module Docs: https://registry.terraform.io/modules/terraform-aws-modules/vpc/aws/3.19.0
 module "cluster_vpc" {
